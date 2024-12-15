@@ -49,7 +49,7 @@ public class searchPage {
             String textFirstResult = firstResult.getText().toLowerCase();
             String textDescription = description.getText().toLowerCase();
             boolean isFound = textFirstResult.contains(word) || textDescription.contains(word);
-            Assert.assertTrue("the test is failed!! " + word + " isn't in the first result", isFound);
+            Assert.assertTrue("the test is failed! " + word + " isn't in the first result", isFound);
             System.out.println("the test is passed!! " + word + " is in the first result..");
         }
 
